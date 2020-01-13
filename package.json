@@ -1,5 +1,6 @@
 {
-  "name": "react-map",
+  "name": "surete_map",
+  "homepage": "http://Maqil.github.io/surete_map",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -21,6 +22,8 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
