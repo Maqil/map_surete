@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <HashRouter basename="/">
         <Switch>
-          <Route exact path="/" component={ReactLeaflet} />
+          <Route exact path="/map" component={ReactLeaflet} />
         </Switch>
       </HashRouter>
     );
